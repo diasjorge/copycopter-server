@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'dynamic_form', '1.1.4'
 gem 'flutie', '1.3.3'
@@ -28,7 +28,7 @@ end
 
 group :test do
   gem 'bourne', '1.1.1'
-  gem 'capybara-webkit', '0.12.1'
+  gem 'capybara-webkit', '1.4.1'
   gem 'cucumber-rails', '1.3.0', :require => false
   gem 'database_cleaner', '0.7.1'
   gem 'factory_girl_rails', '1.7.0'
